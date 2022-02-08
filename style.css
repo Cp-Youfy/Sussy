@@ -1,0 +1,179 @@
+/*Website Standard*/
+
+h1,h2,h3,h4,h5,h6 {
+	color:#338BDE;
+	font-family:Montserrat, Arial, Helvatica, sans-serif;
+	padding:0px;
+	font-weight: 200;
+}
+
+p {
+	font-family:"Open Sans", Arial, Helvatica, sans-serif;
+	color:#111111;
+	font-weight:100;
+	padding:10px 0px;
+}
+
+.webpage {
+	align-self:center;
+	background-color:#f1faee;
+}
+
+/*Website Button Standard*/
+.button {
+	align-self:center;
+	text-align:center;
+}
+
+.button a, .button a:link {
+	background-color:rgb(230,57,70);
+	color:white;
+	font-family:"Open Sans", Arial, Helvatica, sans-serif;
+	align-self:center;
+	text-decoration:none;
+	font-size:1.2em;
+	padding:20px;
+	width:auto;
+	margin:20px;
+	border:none;
+	transition-duration:400ms;
+
+}
+
+.button a:hover, .button a:active {
+	background-color:rgba(230,57,70,0.5);
+}
+
+/*Website-wide Top Navigation Panel*/
+.top-nav {
+	display:flex;
+	font-family:Arial, Helvatica, sans-serif;
+	text-decoration: none;
+	flex-direction:row;
+	background:rgb(230,57,70);
+	position:sticky;
+	position:-webkit-sticky;
+	top:0;
+}
+
+#logo-webpage { /*Top right Webpage Logo*/
+	padding-left:30px;
+	padding-right:10px;
+	color:white;
+	font-family:"Kalam", cursive;
+}
+
+#account-button { /*Sets account button to right*/
+	margin-left:auto;
+}
+
+.top-nav a {
+	text-decoration:none;
+	color:white;
+	padding:20px;
+	font-size:1.1em;
+	background-color: #e63946;
+	text-align:center;
+	flex-basis:80px;
+	transition-duration:400ms;
+}
+
+.top-nav a:visited, .top-nav a:link {
+	color:white;
+	text-decoration: none;
+}
+
+.top-nav a:hover{
+	padding:20px;
+	background-color:rgb(230, 117, 125);
+	text-decoration:none;
+}
+
+/*Homepage banners*/
+.home-banner {
+	display:flex;
+	justify-content: center;
+}
+
+.banner-text h1,h2,h3,h4,h5,h6 {
+	text-align:center;
+}
+
+.banner-text p {
+	text-align:center;
+	padding:0px 15px;
+}
+
+#main-button { /*Top homepage banner button*/
+	margin-bottom:40px;
+	align-self:center;
+}
+
+#main-header { /*Top homepage banner header*/
+	padding-top:40px;
+	padding-bottom:0px;
+	font-size:2.1em;
+	text-align:center;
+}
+
+#main-subtitle { /*Top homepage banner subtitle*/
+	font-size:1.5em;
+	text-align:center;
+	padding-bottom:10px;
+	padding-top:0px;
+	font-style: italic;
+}
+
+#about-banner { /*Top homepage banner background colour*/
+	background: #d9fff9;
+	display:flex;
+	flex-direction:column;
+}
+
+
+#about-banner p { /*Top homepage banner paragraph text*/
+	padding-top:0px;
+	padding-bottom:40px;
+	font-size: 1.15em;
+	text-align:center;
+}
+
+/*Standard Layout for Homepage banners*/
+.banner-header {
+	font-weight:400;
+}
+
+.banner-subtitle {
+	text-align:center;
+	font-style: italic;
+	font-weight:100;
+	color:rgb(29,53,87);
+}
+
+.flex-banner-layout {
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	align-items:center;
+	margin-bottom:2em;
+	flex:0 0 100%;
+}
+
+
+.flex-banner-layout div.banner-img {
+	object-fit:contain;
+	box-sizing:border-box;
+	padding:0px 10px 0px 10px;
+	align-self:flex-start;
+}
+
+.flex-banner-layout div.banner-text {
+	flex:1 1 auto;
+	padding:1.25em 0em;
+}
+
+.banner-img {
+	padding:10px;
+	width:80%;
+	height:auto;
+}
